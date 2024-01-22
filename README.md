@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Thippawan ThaiMassage Admin Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This is a React + TypeScript + Vite Project created along with the Material UI
 
 Currently, two official plugins are available:
-
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js 18.17.0 or later
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+First, Install necessary dependencies:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+yarn install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Then, run the development server:
+
+```
+yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the development site.
+
+
+

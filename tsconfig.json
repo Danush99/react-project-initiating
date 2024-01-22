@@ -7,7 +7,9 @@
     "jsx": "react-jsx",
     "lib": [
       "es6",
-      "dom"
+      "dom",
+      "es2020",
+      "esnext"
     ],
     "module": "esnext",
     "moduleResolution": "node",

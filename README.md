@@ -1,4 +1,4 @@
-# Thippawan ThaiMassage Admin Frontend
+# AMC Flashcard website
 
 ## This is a React + TypeScript + Vite Project created along with the Material UI
 

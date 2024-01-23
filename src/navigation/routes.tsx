@@ -3,7 +3,9 @@ import ProtectedRoute from './protectedRouter';
 import { 
   HomePage,
   StripePaymentPage,
-  TermsAndConditionsPage
+  TermsAndConditionsPage,
+  ErrorPage,
+  ReduxExamplePage
  } from 'src/pages';
 
 const router = createBrowserRouter([
@@ -16,13 +18,23 @@ const router = createBrowserRouter([
     element: <TermsAndConditionsPage />
   },
   {
+    path: '/redux',
+    element: <ReduxExamplePage />
+  },
+  {
     path: '/stripePay',
     element: (
       <ProtectedRoute permissions={['ADMIN,USER']}>
         <StripePaymentPage />
       </ProtectedRoute>
     )
-  }
+  },
+  {
+    path: "*",
+    element: (
+    <ErrorPage/>
+    )
+  } 
 ]);
 
 export default router;

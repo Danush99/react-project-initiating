@@ -1,4 +1,4 @@
-# AMC Flashcard website
+# custom website
 
 ## This is a React + TypeScript + Vite Project created along with the Material UI
 
